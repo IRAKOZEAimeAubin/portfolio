@@ -172,3 +172,56 @@ main.works .cards .card a {
     text-align: right;
     padding-right: 1rem;
 }
+
+main.blogs {
+    position: absolute;
+    top: 20%;
+    left: 54%;
+    transform: translate(-54%, -20%);
+    color: #FFFFFF;
+    margin-top: 4rem;
+}
+
+main.blogs .message {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+main.blogs .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+
+main.blogs .cards :nth-child(1) {
+    margin-right: 2rem;
+}
+
+main.blogs .cards :nth-child(2) {
+    margin-right: 2rem;
+}
+
+main.blogs .cards .card {
+    border: 0.1rem solid #FFFFFF;
+    border-radius: 0.5rem;
+    width: 24rem;
+    height: 24rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+main.blogs .cards .card h4 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0.5rem 0 0 0.5rem;
+}
+
+main.blogs .cards .card a {
+    color: #FFFFFF;
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding-right: 1rem;
+}
