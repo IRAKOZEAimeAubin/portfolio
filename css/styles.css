@@ -267,3 +267,95 @@ main.faq form button {
     padding: 0.75rem;
     color: #FFFFFF;
 }
+
+main.article {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 90%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+}
+
+main.article h2 {
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+main.article p.body {
+    color: #FFFFFF;
+    font-size: 2.25rem;
+    font-weight: 300;
+    min-width: 50ch;
+    margin: 0.5rem 0;
+}
+
+main.article form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0.8rem 0 0.8rem 0;
+}
+
+main.article form textarea {
+    text-align: left;
+    border: 0.1rem solid #FFFFFF;
+    border-radius: 0.2rem;
+    padding: 0.75rem 0.938rem;
+    color: #FFFFFF;
+}
+
+main.article form button {
+    border: 0.1rem solid #FFFFFF;
+    border-radius: 0.2rem;
+    padding: 0.75rem;
+    color: #FFFFFF;
+    width: 10%;
+}
+
+main.article .link {
+    color: #FFFFFF;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0 0 0.8rem 0;
+}
+
+main.article .link h4 {
+    font-weight: 300;
+}
+
+main.article .link a {
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 0.1rem solid #FFFFFF;
+    border-radius: 0.2rem;
+    padding: 0.75rem;
+    color: #FFFFFF;
+    width: 10%;
+    text-align: center;
+}
+
+main.article .comments {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+main.article .comments .comment {
+    margin-top: 0.8rem;
+}
+
+main.article .comments .comment h4 {
+    font-weight: 600;
+}
+
+main.article .comments .comment p {
+    font-weight: 300;
+}
